@@ -6,7 +6,7 @@ export default function TileMaterial({
   displacementHeight,
 }) {
   const material = new THREE.MeshPhongMaterial({
-    color: 0x010102,
+    color: 0x121013,
     shininess: 20,
     specular: 0x222222,
   });
