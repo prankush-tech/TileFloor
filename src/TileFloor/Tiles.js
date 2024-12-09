@@ -248,6 +248,17 @@ export default class Tiles {
       title: "Tile",
     });
 
+    tileFolder.addBinding(this.tileMaterial, "shininess", {
+      label: "Shininess",
+      min: 0,
+      max: 100,
+    });
+
+    tileFolder.addBinding(this.tileMaterial, "specular", {
+      label: "Specular",
+      color: { type: "float" },
+    });
+
     tileFolder.addBinding(this.tileMaterial, "color", {
       label: "Colour",
       color: { type: "float" },
