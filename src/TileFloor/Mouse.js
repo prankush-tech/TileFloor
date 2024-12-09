@@ -19,6 +19,7 @@ export default class Mouse extends EventEmitter {
 
     this.intersectObjects = [];
     this.needsUpdate = false;
+    this.active = false;
 
     this.xTo = gsap.quickTo(this.cursor, "x", {
       duration: 0.7,
@@ -41,21 +42,27 @@ export default class Mouse extends EventEmitter {
     this.handlePointerEnter = this.handlePointerEnter.bind(this);
     this.handlePointerLeave = this.handlePointerLeave.bind(this);
 
-    document.addEventListener("pointermove", this.handlePointerMove);
-    document.addEventListener("mouseenter", this.handlePointerEnter);
-    document.addEventListener("mouseleave", this.handlePointerLeave);
+    window.addEventListener("pointermove", this.handlePointerMove);
+    document.addEventListener("pointerenter", this.handlePointerEnter);
+    document.addEventListener("pointerleave", this.handlePointerLeave);
   }
 
   handlePointerMove(event) {
+    if (!this.active) {
+      this.handlePointerEnter();
+    }
+
     this.xTo((event.clientX / window.innerWidth) * 2 - 1);
     this.yTo(-(event.clientY / window.innerHeight) * 2 + 1);
   }
 
   handlePointerEnter(event) {
+    this.active = true;
     this.trigger("mouseEnter");
   }
 
   handlePointerLeave(event) {
+    this.active = false;
     this.trigger("mouseLeave");
   }
 
