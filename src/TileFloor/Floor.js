@@ -17,7 +17,7 @@ export default class Floor {
     this.floorHighlightRadius = {
       current: 0,
       last: 0,
-      max: 0.09,
+      max: 0.05,
     };
 
     this.init();
@@ -35,7 +35,7 @@ export default class Floor {
       this.tiles.bounds.z
     );
 
-    this.floorSize = new THREE.Vector2(15, 15);
+    // this.floorSize = new THREE.Vector2(15, 15);
 
     this.floorGeometry = new THREE.PlaneGeometry(
       this.floorSize.x,

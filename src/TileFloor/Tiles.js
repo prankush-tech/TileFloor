@@ -125,6 +125,7 @@ export default class Tiles {
     this.instancedTileMesh.computeBoundingBox();
 
     this.calculateTilesBoundingBox();
+    console.log(this.bounds);
 
     this.scene.add(this.instancedTileMesh);
   }
