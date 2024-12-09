@@ -1,0 +1,126 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Curve",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "translation" : [
+                -0.1708211451768875,
+                -0.128614142537117,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "SVGMat.026",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.0027317143976688385,
+                    0.003346518613398075,
+                    0.0423114113509655,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.2181818187236786
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Curve",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 15142,
+            "max" : [
+                0.3224581778049469,
+                0.01599999889731407,
+                -0.01618303544819355
+            ],
+            "min" : [
+                0.016158446669578552,
+                -0.01599999889731407,
+                -0.3224185109138489
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 15142,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 15142,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 64860,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 68301,
+            "byteOffset" : 0
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 68304,
+            "uri" : "tkg_3Dlogo.bin"
+        }
+    ]
+}

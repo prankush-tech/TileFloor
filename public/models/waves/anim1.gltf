@@ -1,0 +1,398 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Plane.008",
+            "rotation" : [
+                0,
+                0,
+                -0.0935964435338974,
+                0.995610237121582
+            ],
+            "translation" : [
+                0,
+                0.2181488275527954,
+                0
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Plane.010",
+            "rotation" : [
+                0,
+                0,
+                -0.0935964435338974,
+                0.995610237121582
+            ],
+            "translation" : [
+                0,
+                0.2181488275527954,
+                0
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Plane.009",
+            "rotation" : [
+                0,
+                0,
+                -0.0935964435338974,
+                0.995610237121582
+            ],
+            "translation" : [
+                0,
+                0.2181488275527954,
+                0
+            ]
+        },
+        {
+            "mesh" : 3,
+            "name" : "Plane.011",
+            "scale" : [
+                2.1050992012023926,
+                2.1050992012023926,
+                2.1050992012023926
+            ],
+            "translation" : [
+                -33.0986328125,
+                0,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0.1913509964942932,
+                0.39830899238586426,
+                1
+            ],
+            "name" : "Material.006",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.19135117530822754,
+                    0.3983086049556732,
+                    1,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.07699999958276749
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0.27246116421775923,
+                0.5307389737973196,
+                1
+            ],
+            "name" : "Material.007",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.041282325983047485,
+                    0.08041545748710632,
+                    0.18998639285564423,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.07699999958276749
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0.00036423246453303783,
+                0.000485643239477921,
+                0.043172118711056084
+            ],
+            "name" : "gradient",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.0015175528824329376,
+                    0.0018211174756288528,
+                    0.12477177381515503,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.009",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Plane.015",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 1,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Plane.016",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 2,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 11,
+                    "material" : 1,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Plane.019",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13,
+                        "TEXCOORD_0" : 14
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 3,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 15,
+                    "material" : 2,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 657392,
+            "max" : [
+                2.5317578315734863,
+                0.5766047835350037,
+                4.410801887512207
+            ],
+            "min" : [
+                -2.5317575931549072,
+                -0.8118651509284973,
+                -4.410802841186523
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 657392,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 657392,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5125,
+            "count" : 3917184,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 7281,
+            "max" : [
+                2.5317578315734863,
+                0.3215583562850952,
+                4.102995872497559
+            ],
+            "min" : [
+                2.492051362991333,
+                -0.6862515211105347,
+                -4.409657955169678
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 7281,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 7281,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 38784,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 7281,
+            "max" : [
+                -2.492051362991333,
+                0.20287218689918518,
+                4.4096574783325195
+            ],
+            "min" : [
+                -2.5317575931549072,
+                -0.5457045435905457,
+                -4.102995872497559
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 7281,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 7281,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 38784,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                3.7748949921478925e-07,
+                5,
+                5
+            ],
+            "min" : [
+                -3.7748949921478925e-07,
+                -5,
+                -5
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 6,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 1278153,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13912,
+            "byteOffset" : 1278156
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13939,
+            "byteOffset" : 1292068
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 165,
+            "byteOffset" : 1306008
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1306176,
+            "uri" : "anim1.bin"
+        }
+    ]
+}
